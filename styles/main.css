@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #434343;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-header {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    align-items: center;
+    background:
+        url('https://www.startheregoplaces.com/media/cms_page_media/223/Header_Education_Options.png')
+        no-repeat 50% 50%;
+    background-size: 100%;
+
+    display: flex;
+    height: 250px;
+}
+
+.main-header {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    text-align: left;
+    background: #00B5E2;
+/*    background:
+        url('http://mozilla.inkedblade.net/images/header_bl.png')
+        no-repeat 50% 50%;
+    background-size: 100%;*/
+}
+
+.main-section {
+    background-color: #00B5E2;;
+}
+
+footer {
+    background: #434343;
+    font-size: 0.8em;
+    height: 200px;
+    position: relative;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p.title {
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+footer ul {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+footer ul li {
+    flex: 1;
+}
