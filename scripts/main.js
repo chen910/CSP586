@@ -1,7 +1,12 @@
+// import Chart from 'chart.js';
 const DataFrame = dfjs.DataFrame;
 
-let df = DataFrame.fromJSON('https://data.cityofchicago.org/resource/psqp-6rmg.json').then(df => df);
+let df = DataFrame.fromCSV('https://data.cityofchicago.org/api/views/x8fc-8rcq/rows.csv').then(df => df);
 
-df.then((val) => val.map(row => console.log(row) ))
+data = df.then((val) => val.map(row => console.log(row) ));
 
+console.log(data);
 
+function clickButton() {
+	document.getElementById("demo").innerHTML = "My First JavaScript";
+}

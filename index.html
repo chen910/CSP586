@@ -16,15 +16,26 @@
             <h2>Select Dataset:</h2>          
         </header>
         <section class="main-section">
-            <aside id="item-nav">
-                <nav class="main-nav">
-                    <a class="hover-button" href="#">Library</a>
-                    <a class="hover-button" href="#">Library WIFI usage</a>
-                    <a class="hover-button" href="#">Public elementary school</a>
-                    <a class="hover-button" href="#">Public high school</a>
-                    <a class="hover-button" href="#">Deprecated school</a>
-                </nav>
-            </aside>
+            <nav class="main-nav">
+                <ul>
+                    <li>
+                        <a class="hover-button" href="#" onclick="clickButton()">Library</a>
+                    </li>
+                    <li>
+                        <a class="hover-button" href="#">Library WIFI usage</a>
+                    </li>
+                    <li>
+                        <a class="hover-button" href="#">Elementary school</a>
+                    </li>
+                    <li>
+                        <a class="hover-button" href="#">High school</a>
+                    </li>
+                    <li>
+                        <a class="hover-button" href="#">Deprecated school</a>
+                    </li>
+                </ul>
+            </nav>
+            <p id="demo"></p>
         </section>
         <footer>
             <p class="title">Spring 2018 UML Team 5</p>
@@ -40,7 +51,8 @@
                 </li>
             </ul>
         </footer>
-<!--         <script src="./scripts/dataframe.js"></script>
-        <script src="./scripts/main.js"></script> -->
+        <script src="./scripts/libraries/dataframe.js"></script>
+        <script src="./scripts/libraries/Chart.js"></script>
+        <script src="./scripts/main.js"></script>
     </body>
 </html>
